@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6d07541292.js" crossorigin="anonymous"></script>
+    <title>Medicare</title>
+    <style>
+     *
+     {
+         margin:0px;
+         padding:0px;
+         background-color: aliceblue;
+     }
+     #logo
+     {
+         height: 60px;
+         width:150px;
+         float: left;
+         
+     }
+    .navbar ul li{
+        display: inline;
+        text-align: right;
+        list-style: none;
+        padding-left: 140px;
+        line-height: 50px;
+        
+    }
+    .navbar li a{
+        background-color: black;
+        margin:0px;
+        text-decoration: none;
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 20px;
+        padding-right: 3px;
+    }
+    .navbar ul
+    {
+        background-color: black;
+        margin: 0px;
+        width:100%;
+        height: 60px;
+    }
+    .navbar ul li{
+        background-color: black;
+    }
+    .navbar li a:hover{
+       color: aquamarine;
+    }
+    #form{
+        padding-left: 1000px;
+        padding-top: 200px;
+    }
+    #reset,#submit{
+        padding: 10px;
+        width: 100px;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    #reset:hover,#submit:hover{
+        background-color: #4daea1;
+    }
+    #email,#password{
+        padding:5px;
+        margin:5px;
+        border-radius: 5px;
+    }
+    #Form_heading{
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+
+    }
+    .container{
+        background-color: aliceblue;
+        flex-direction: row;
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap:wrap;
+        
+    }
+    .flexchild{
+        background-color: azure;
+        margin:20px;
+        padding: 20px;
+        height:300px;
+        width:300px;
+        border-radius: 10px;
+    }
+    .images
+    {
+        height:200px;
+        width:300px;
+    }
+    .Other_headings{
+        font-style: italic;
+        font-size: 50px;
+        text-align: center;
+
+    }
+    #ContactUs{
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: black;
+        border-radius: 2px;
+        border-style: solid;
+    }
+    #gif{
+        padding-top:50px;
+        padding-left: 50px;
+        height:700px;
+        width: 700px;
+        float: left;
+    }
+    #s{
+        font-style: italic;
+        font-size: 50px;
+        padding-left:0px ;
+    }
+    .fa-solid{
+        background-color: black ;
+        float:right;
+        margin-right: 20px;
+        margin-top: 15px;
+    }
+    </style>
+    
+   <!-- <script>
+        confirm("Do You Want to Accept Cookies")
+    </script>-->
+</head>
+<body> 
+
+    <!--For navigation-->
+    
+    <header>
+   <nav class="navbar">
+       <img src="Medical-logo-07.png" id="logo">
+        <ul>
+      <li> <a href="cs1s.html">Home</a></li>
+      <li> <a href="#s">Our Specialists</a></li>
+      <li><a href="medicine.html" target="_blank">Medicines</a></li>
+      <li><a href="#ContactUs">Contact us</a></li>
+      <li><a href="premium.html" target="_blank">Premium</a></li>
+      <li><a href="#slide"><i class="fa-solid fa-bars"></i></a></li>
+    </ul>
+   </nav>
+   </header>
+
+   <!--Here navigation ends-->
+   <!--Here form starts-->
+   
+   <form action="" >
+    <div>
+        <img src="home-img.svg" id="gif">
+    <div id="form">
+    <p id ="Form_heading" >Log in</p>
+    <br>
+    <input type="email" required id="email" placeholder="Enter Email id">
+    <br>
+    <br>
+    <input type="password" required maxlength="10" minlength="6" id="password" placeholder="Enter Password"> 
+    <br>
+    <br>  
+    <input type="submit" value="Submit" id="submit">
+    <input type="reset" value="Reset" id="reset">
+</div>
+    <!--Here form ends-->
+    <div>
+    </div>
+   </form>
+</div></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<h2 class="specialist_heading" id="s">Our Specialists....</h2><br><br><br>
+<!--From here content boxes start-->
+<div class="container">
+    <div class="flexchild">
+        <img src="1st.jpg" class="images">
+        <h3>Georgia Jones</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolore, delectus maiores aliquid tenetur eius. Ea illum aperiam inventore non.</p>
+    </div>
+    <div class="flexchild">
+        <img src="6th.jpg" class="images">
+        <h3>Jack Martin</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolore, delectus maiores aliquid tenetur eius. Ea illum aperiam inventore non.</p>
+    </div>
+    <div class="flexchild">
+        <img src="3rd.jpg" class="images">
+        <h3>James Taylor</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolore, delectus maiores aliquid tenetur eius. Ea illum aperiam inventore non.</p>
+    </div>
+    <div class="flexchild">
+        <img src="4th.jpg" class="images">
+        <h3>Joseph Fernadez</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolore, delectus maiores aliquid tenetur eius. Ea illum aperiam inventore non.</p>
+    </div>
+    <div class="flexchild">
+        <img src="5th.jpg" class="images">
+        <h3>Julliet Martin</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolore, delectus maiores aliquid tenetur eius. Ea illum aperiam inventore non.</p>
+    </div></div><br><br><br><br><br><br><br><br><br><br>
+    <div id="ContactUs"><br><br>
+        <h class="Other_headings">Contact Us....</h><br><br><br>
+        <p>
+            For Any Queries Contact Us At:<br><br><br>
+            Mobile No: 8977766554<br><br>
+            Toll Free No: 1001-4455-9900<br><br><br>
+            E-mail:<br><br>
+            Medicare1234@gmail.com<br><br><br>
+        </p>
+    </div>
+
+</body>
+</html>
